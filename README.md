@@ -2,7 +2,7 @@
 Esse aplicativo foi desenvolvido para praticar o uso do Jetpack Compose na criação de componentes essenciais para telas, além de carregar o Google Maps através de API e integração de QR Codes garantindo uma comunicação eficiente e estruturada com back-end entre app e serviço.
 
 ## Screenshoots
-![Start](https://github.com/user-attachments/assets/840e09f0-2912-4ac6-acb7-b0beefcce39f)
+<![Start](https://github.com/user-attachments/assets/840e09f0-2912-4ac6-acb7-b0beefcce39f) width="260">&emsp;
 
 
 
