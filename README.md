@@ -2,12 +2,12 @@
 Esse aplicativo foi desenvolvido para praticar o uso do Jetpack Compose na criação de componentes essenciais para telas, além de carregar o Google Maps através de API e integração de QR Codes garantindo uma comunicação eficiente e estruturada com back-end entre app e serviço.
 
 ## Screenshoots
-<img src="https://github.com/user-attachments/assets/d42c465e-b658-4dbe-8576-f22527d3fd5a" width="152">
-<img src="https://github.com/user-attachments/assets/3b7c61af-2a60-4ef9-9c8f-05823613b89b" width="152">
-<img src="https://github.com/user-attachments/assets/c472408e-d925-4d2e-bb0c-a2566e22d694" width="152">
-<img src="https://github.com/user-attachments/assets/0e5d4282-0917-484c-ae2e-011dbbbefe88" width="152">
-<img src="https://github.com/user-attachments/assets/8082446e-c1be-470d-8955-ed9ff10de003" width="152">
-<img src="https://github.com/user-attachments/assets/32c93548-ca6d-4a34-af1f-94dc74b031e5" width="152">
+<img src="https://github.com/user-attachments/assets/d42c465e-b658-4dbe-8576-f22527d3fd5a" width="150">
+<img src="https://github.com/user-attachments/assets/3b7c61af-2a60-4ef9-9c8f-05823613b89b" width="150">
+<img src="https://github.com/user-attachments/assets/c472408e-d925-4d2e-bb0c-a2566e22d694" width="150">
+<img src="https://github.com/user-attachments/assets/0e5d4282-0917-484c-ae2e-011dbbbefe88" width="150">
+<img src="https://github.com/user-attachments/assets/8082446e-c1be-470d-8955-ed9ff10de003" width="150">
+<img src="https://github.com/user-attachments/assets/32c93548-ca6d-4a34-af1f-94dc74b031e5" width="150">
 
 ## Tecnologias usadas no Aplicativo
 * Kotlin;
