@@ -30,6 +30,7 @@ import com.example.nearby.data.model.mock.mockMarkets
 import com.example.nearby.ui.component.button.NearbyButton
 import com.example.nearby.ui.component.market_details.NearbyMarketDetailsCoupons
 import com.example.nearby.ui.component.market_details.NearbyMarketDetailsInfos
+import com.example.nearby.ui.component.market_details.NearbyMarketDetailsRules
 import com.example.nearby.ui.theme.Typography
 
 @Composable
@@ -38,6 +39,7 @@ fun MarketDetailsScreen(
     uiState: MarketDetailsUiState,
     onEvent: (MarketDetailsUiEvent) -> Unit,
     market: Market,
+    onNavigateToQRCodeScanner: () -> Unit,
     onNavigateBack: () -> Unit) {
 
         LaunchedEffect(key1 = true) {
@@ -70,7 +72,7 @@ fun MarketDetailsScreen(
                     .fillMaxHeight()
                     .padding(36.dp)
             ) {
-                Column() {
+                Column {
                     Text(text = market.name, style = Typography.headlineLarge)
                     Spacer(modifier = Modifier.height(16.dp))
                     Text(text = market.description, style = Typography.bodyLarge)
@@ -96,7 +98,8 @@ fun MarketDetailsScreen(
                             .padding(vertical = 24.dp)
                         )
                     }
-                NearbyMarketDetailsCoupons(coupons = listOf("ABCD12345"))
+                    if (!uiState.coupon.isNullOrEmpty())
+                NearbyMarketDetailsCoupons(coupons = listOf(uiState.coupon))
             }
 
                 NearbyButton(
@@ -104,7 +107,7 @@ fun MarketDetailsScreen(
                         .fillMaxWidth()
                         .padding(top = 24.dp),
                     text = "Ler QR Code",
-                    onClick = {  }
+                    onClick = onNavigateToQRCodeScanner
                 )
             }
         }
@@ -127,6 +130,7 @@ private fun MarketDetailsScreenPreview() {
         market = mockMarkets.first(),
         uiState = MarketDetailsUiState(),
         onEvent = {},
-        onNavigateBack = {}
+        onNavigateBack = {},
+        onNavigateToQRCodeScanner = {}
     )
 }

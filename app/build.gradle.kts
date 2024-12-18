@@ -59,6 +59,10 @@ dependencies {
     implementation(libs.kotlin.serialization)
     implementation(platform(libs.ktor.bom))
     implementation(libs.bundles.ktor)
+
+    implementation(libs.zxing)
+    implementation(libs.zxing.android.embedded)
+    
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
