@@ -1,5 +1,5 @@
 ## Sobre
-Esse aplicativo foi desenvolvido para praticar o uso do Jetpack Compose na criação de componentes essenciais para telas, além de carregar o Google Maps através de API e integração de QR Codes garantindo uma comunicação eficiente e estruturada com back-end entre app e serviço.
+Esse aplicativo foi desenvolvido em um desafio de 3 dias para praticar o uso do Jetpack Compose na criação de componentes essenciais para telas, além de carregar o Google Maps através de API, base de dados externa para informações de estabelecimentos e integração de leitura de QR Codes, garantindo uma comunicação eficiente e estruturada com back-end entre app e serviço.
 
 ## Screenshoots
 <img src="https://github.com/user-attachments/assets/d42c465e-b658-4dbe-8576-f22527d3fd5a" width="130">
@@ -20,6 +20,7 @@ Esse aplicativo foi desenvolvido para praticar o uso do Jetpack Compose na cria�
 * Consumo de API's;
 * Carregamento de Mapas;
 * Leitura de QR Codes;
+* ViewModel;
 * Tematização seguindo Design System;
 
 ## TO-DO's
