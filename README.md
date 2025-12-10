@@ -1,12 +1,5 @@
 # 🍔 Projeto Nearby
 
-![Status](https://img.shields.io/badge/Status-Desafio%20Concluído-blue)
-![Linguagem](https://img.shields.io/badge/Linguagem-Kotlin-7f52ff?style=flat-square&logo=kotlin)
-![Framework UI](https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?style=flat-square&logo=android)
-![Licença MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-
-## 💡 Sobre o Projeto
-
 O **Nearby** é um aplicativo Android desenvolvido em Kotlin, focado em utilizar recursos modernos da plataforma para fornecer informações de localização e estabelecimentos próximos.
 
 Este projeto foi criado como um **desafio de 3 dias** com o objetivo de praticar e aprofundar o uso do **Jetpack Compose** na criação de componentes de tela avançados.
